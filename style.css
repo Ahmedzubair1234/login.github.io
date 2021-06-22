@@ -23,6 +23,15 @@ body{
 	padding: 45px 35px 35px 35px;
 
 }
+.intro{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	position: relative;
+	box-shadow: 10px 10px 20px #cbced1, -10px -10px 20px #ffffff;
+	border-radius: 40px;
+	padding: 45px 35px 35px 35px;
+
+}
 .logo{
 	background: url("60ad73a23d986.gif");
 	width: 100px;
@@ -34,12 +43,25 @@ body{
 }
 .title{
 	text-align: center;
-	font-size: 28px;
+	font-size: 22px;
 	color: #fc5130;
 	text-shadow: 8px 8px 15px #a7aaaf, -8px -8px 15px #ffffff;
-	padding-top: 24px;
+	padding-top: 20px;
+	cursor: pointer;
+}
+.title a{
+	text-align: center;
+	font-size: 22px;
+	color: #fc5130;
+	text-shadow: 8px 8px 15px #a7aaaf, -8px -8px 15px #ffffff;
+	padding-top: 20px;
+	cursor: pointer;
 }
 .login-info{
+	width: 100%;
+	padding: 60px 5px 5px 5px;
+}
+.intro-info{
 	width: 100%;
 	padding: 60px 5px 5px 5px;
 }
@@ -114,7 +136,6 @@ a{
 }
 .sign{
 	position: relative;
-	margin-top: 10px;
 	margin-bottom: 10px;
 	box-shadow: 10px 10px 20px #cbced1, -10px -10px 20px #ffffff;
 	border-radius: 40px;
@@ -134,10 +155,8 @@ a{
 	color: #999;
 	padding: 10px 1px 10px 1px;
 }
-
-
 img{
-	width: 93%;
+	margin-left: -20px;
 }
 .homeback{
 	position: relative;
